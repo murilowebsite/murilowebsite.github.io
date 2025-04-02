@@ -4,19 +4,32 @@
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
   </head>
   <body>
-    <h1> uhh you found this website?</h1>
-    <p>if you are murilo pls translate this text to portuguese.</p>
-    <p>murilo doenst speak english</p>
-    <div class="terminal-loader">
-  <div class="terminal-header">
-    <div class="terminal-title">Status</div>
-    <div class="terminal-controls">
-      <div class="control close"></div>
-      <div class="control minimize"></div>
-      <div class="control maximize"></div>
-    </div>
-  </div>
-  <div class="text">minecraft</div>
-</div>
+    <button class="botao" onclick="abrirloja()">loja</button>
+<div class="caixa"></div>
+    <styles type="text/css">
+      .caixa{
+      height: 600px;
+      weidth: 250px;
+      border-radius: 10px;
+      position: absolite;
+      background-color:#f3ead3;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      opacity: 0;
+      }
+    </styles>
+    <styles type="text/javascript"> 
+      function on(){
+      const botao = document.getElementByClassName("botao");
+      const estilos = window.getComputedStyle(botao);
+      const valordoestilo = estilos.value
+      if (valordoestilo === 0))
+      document.getElementsByClassName("caixa").style.opacity="1";
+      }
+      else {
+      document.getElementsByClassName("caixa").style.opacity="0";
+      }
+    </styles>
   </body>
 </html>
