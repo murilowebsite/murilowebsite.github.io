@@ -12,10 +12,12 @@
       const estilos = window.getComputedStyle(botao);
       const valordoestilo = estilos.value
       if (valordoestilo === 0))
-      document.getElementsByClassName("caixa").style.opacity="1";
+      caixa.style.opacity = 1;
+      caixa.style.pointerEvents = auto;
       }
       else {
-      document.getElementsByClassName("caixa").style.opacity="0";
+      caixa.style.opacity = 0;
+      caixa.style.pointerEvents = none;
       }
     </styles>
   </body>
