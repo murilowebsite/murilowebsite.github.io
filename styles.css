@@ -20,3 +20,7 @@
   justify-content: end;
   align-items: start;
 }
+.imagem {
+  width: 24px;
+  height: 24px;
+}
