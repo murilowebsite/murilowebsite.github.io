@@ -2,11 +2,7 @@
       height: 600px;
       weidth: 250px;
       border-radius: 10px;
-      position: absolite;
-      background-color: #f3ead3;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
+      background-color: black;
       opacity: 0;
       pointer-events: none;
       }
@@ -14,3 +10,8 @@
    width: 600px;
    height: 1200px;
   }
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
