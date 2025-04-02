@@ -12,21 +12,7 @@
     <script type="text/javascript">
       function on() {
         var caixa = document.getElementsByClassName('caixa')[0];
-        var botao = document.getElementsByClassName('botao')[0];
-
-        if (caixa && botao) {
-          const estilos = window.getComputedStyle(botao);
-          const valordoestilo = estilos.opacity; // Obtendo a opacidade como string
-          if (valordoestilo === '0') {
-            caixa.style.opacity = '1';
-            caixa.style.pointerEvents = 'auto';
-          } else {
-            caixa.style.opacity = '0';
-            caixa.style.pointerEvents = 'none';
-          }
-        } else {
-          console.error('Erro: Elementos não encontrados.');
-        }
+        caixa.style.opacity = '0';
       }
     </script>
   </body>
