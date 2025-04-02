@@ -6,15 +6,12 @@
   border:solid 1px;
   opacity: 0;
   pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .body {
   width: 600px;
   height: 1200px;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
