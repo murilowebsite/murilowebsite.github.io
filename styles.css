@@ -3,9 +3,13 @@
       weidth: 250px;
       border-radius: 10px;
       position: absolite;
-      background-color:#f3ead3;
+      background-color: #f3ead3;
       top: 50%;
       left: 50%;
       transform: translate(-50%,-50%);
       opacity: 0;
       }
+  .body {
+   width: 600px;
+   height: 1200px;
+  }
