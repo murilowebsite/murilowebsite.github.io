@@ -4,22 +4,22 @@
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
   </head>
   <body>
-    <button class="botao" onclick="abrirloja()">loja</button>
-<div class="caixa"></div>
-    <styles type="text/javascript"> 
-      function on(){
-      var caixa = document.getElementByClassName(.caixa)
-      var botao = document.getElementByClassName(.botao);
-      const estilos = window.getComputedStyle(botao);
-      const valordoestilo = estilos.value
-      if (valordoestilo === 0))
-      caixa.style.opacity = 1;
-      caixa.style.pointerEvents = auto;
+    <button class="botao" onclick="on()">loja</button>
+    <div class="caixa"></div>
+    <script type="text/javascript">
+      function on() {
+        var caixa = document.getElementsByClassName('caixa')[0];
+        var botao = document.getElementsByClassName('botao')[0];
+        const estilos = window.getComputedStyle(botao);
+        const valordoestilo = estilos.opacity; // Exemplo de propriedade
+        if (valordoestilo === '0') {
+          caixa.style.opacity = '1';
+          caixa.style.pointerEvents = 'auto';
+        } else {
+          caixa.style.opacity = '0';
+          caixa.style.pointerEvents = 'none';
+        }
       }
-      else {
-      caixa.style.opacity = 0;
-      caixa.style.pointerEvents = none;
-      }
-    </styles>
+    </script>
   </body>
 </html>
