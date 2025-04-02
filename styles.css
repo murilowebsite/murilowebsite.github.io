@@ -1,17 +1,19 @@
- .caixa{
-      height: 600px;
-      weidth: 250px;
-      border-radius: 10px;
-      background-color: black;
-      opacity: 0;
-      pointer-events: none;
-      }
-  .body {
-   width: 600px;
-   height: 1200px;
-  }
+.caixa {
+  height: 600px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: black;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.body {
+  width: 600px;
+  height: 1200px;
+}
+
 .container {
- display: flex;
- justify-content: center;
- align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
