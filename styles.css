@@ -16,6 +16,7 @@
   height: 1200px;
 }
 .X {
+  display:flex;
   justify-content: end;
   align-items: start;
 }
