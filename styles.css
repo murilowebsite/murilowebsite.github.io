@@ -6,8 +6,8 @@
   border:solid 1px;
   opacity: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: end;
+  align-items: start;
 }
 
 .body {
@@ -15,9 +15,8 @@
   height: 1200px;
 }
 .X {
-  display:flex;
-  justify-content: end;
-  align-items: start;
+border-radius: 0px 9px 0px 0px;
+border:solid 1px;
 }
 .imagem {
   width: 24px;
