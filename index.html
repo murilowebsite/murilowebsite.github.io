@@ -13,7 +13,6 @@
     </div>
     </div>  
     <script type="text/javascript">
-      var click = 0;
       function on() {
         var caixa = document.getElementsByClassName('caixa')[0];
         caixa.style.opacity = '1';
@@ -23,6 +22,7 @@
         caixa.style.opacity = '0';
       }
       function onclick() {
+       var click = 0;
        click += 1;
         console.log(click);
       }
