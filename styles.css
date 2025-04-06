@@ -32,11 +32,12 @@ height: 24px;
 .item1 {
   border-radius: 10px;
   border:solid 1px;
-  width:60px;
+  width:70px;
   height:60px;
+  margin:8px;
 }
 .item1img{
   width:60px;
-  height:60px;
+  height:55px;
   border-radius: 10px;
 }
