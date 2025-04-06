@@ -16,11 +16,9 @@
       }
       function item1(){
         clickinicial += 1;
-        if (click == preco1){
+        if (click >= preco1){
         click -= preco1;
         preco1 += 50;
+        points.innerText = click;
         }
-            else{
-                  console.log(pobre)
-            }
       }
