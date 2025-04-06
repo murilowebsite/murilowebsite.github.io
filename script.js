@@ -15,8 +15,8 @@
       points.innerText = click;
       }
       function item1(){
-        clickinicial += 1;
         if (click >= preco1){
+        clickinicial += 1;
         click -= preco1;
         preco1 += 50;
         points.innerText = click;
