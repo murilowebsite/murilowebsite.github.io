@@ -2,16 +2,19 @@ var click = 0;
 var clickinicial = 1;
 var preco1 = 10;
 var preco2 = 50;
-var points = document.getElementsByClassName('pontos')[0];
+var points = document.getElementsByClassName('pontos');
 var loop = false;
-
+var preco3 = 500;
+var loop1 = false;
+var musicacarlos = getElementsByClassName('musica')
+  
 function on() {
-  var caixa = document.getElementsByClassName('caixa')[0];
+  var caixa = document.getElementsByClassName('caixa');
   caixa.style.opacity = '1';
 }
 
 function off() {
-  var caixa = document.getElementsByClassName('caixa')[0];
+  var caixa = document.getElementsByClassName('caixa');
   caixa.style.opacity = '0';
 }
 
@@ -32,8 +35,7 @@ function item1() {
 function item2() {
   if (click >= preco2 && !loop) {
     click -= preco2;
-    preco2 += 100;
-    loop = true; // Ativar o loop
+    loop = true; 
     points.innerText = click;
     loopclicker();
   }
@@ -41,10 +43,21 @@ function item2() {
 
 function loopclicker() {
   if (loop) {
-    setTimeout(function () {
+    setTimeout(function (){
       click += clickinicial;
       points.innerText = click;
       loopclicker(); 
     }, 1000);
   }
+}
+function item3(){
+  if(click >= preco3 && !loop1) {
+    click -= preco3;
+    loop1 = true;
+    points.innerText = click;
+    loopcarlos();
+  }
+}
+function loopcarlos() setTimeout{
+  musicacarlos.play()
 }
