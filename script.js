@@ -6,6 +6,7 @@ var points = document.getElementsByClassName('pontos')[0];
 var loop = false;
 var preco3 = 500;
 var loop1 = false;
+var looptempo = 10000;
 var musicacarlos = document.getElementsByClassName('musica'); 
 
 function on() {
@@ -30,4 +31,17 @@ function item1() {
     preco1 += 50;
     points.innerText = click; 
   }
+}
+function item2(){
+  var loop1 = true;
+  if (click >= preco2){
+    click -= preco2
+    points.innerText = click;
+  }
+}
+function loop(){
+setTimeout(while(loop1){
+  click += 1;
+  points.innerText = click;
+    }, looptempo)
 }
